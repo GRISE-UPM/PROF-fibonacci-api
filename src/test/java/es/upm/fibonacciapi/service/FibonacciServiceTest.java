@@ -2,10 +2,8 @@ package es.upm.fibonacciapi.service;
 
 import es.upm.fibonacciapi.exception.InvalidNumberException;
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assumptions.assumingThat;
-
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -14,7 +12,6 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 
 public class FibonacciServiceTest {
-
     private FibonacciService fibonacciService;
 
     @BeforeAll
